@@ -1,7 +1,6 @@
-﻿namespace CnCNet.LauncherStub;
+﻿using System.Windows;
 
-using System.Windows;
-
+namespace CnCNet.LauncherStub;
 /// <summary>
 /// Interaction logic for AdvancedMessageBox.xaml.
 /// </summary>

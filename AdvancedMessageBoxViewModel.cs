@@ -1,7 +1,6 @@
-﻿namespace CnCNet.LauncherStub;
+﻿using System.Collections.ObjectModel;
 
-using System.Collections.ObjectModel;
-
+namespace CnCNet.LauncherStub;
 public class AdvancedMessageBoxViewModel : NotifyPropertyChangedBase
 {
     private ObservableCollection<CommandViewModel>? commands;

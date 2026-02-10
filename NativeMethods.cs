@@ -1,7 +1,6 @@
-﻿namespace CnCNet.LauncherStub;
+﻿using System.Runtime.InteropServices;
 
-using System.Runtime.InteropServices;
-
+namespace CnCNet.LauncherStub;
 internal static class NativeMethods
 {
     [DllImport("kernel32.dll", CharSet = CharSet.Unicode, SetLastError = true)]
